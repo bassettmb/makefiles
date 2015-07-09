@@ -16,7 +16,7 @@ TGT := # target
 SRC := # source
 OBJ := $(addprefix $(OBJDIR)/, $(SRC:.c=.o))
 
-.PHONY: all clean distclean snapshot
+.PHONY: all clean distclean
 
 all: $(TGT)
 

@@ -22,7 +22,7 @@ CSRC := # c source
 CXXSRC := # c++ source
 OBJ := $(addprefix $(OBJDIR)/, $(CSRC:.c=.c.o)) $(addprefix $(OBJDIR)/, $(CXXSRC:.cpp=.cpp.o))
 
-.PHONY: all clean distclean snapshot
+.PHONY: all clean distclean
 
 all: $(TGT)
 
